@@ -40,4 +40,3 @@ ranked_eeveelutions = determine_eeveelution(ivs)
 print("Ranking of Eeveelutions based on the given IVs:")
 for rank, eeveelution in enumerate(ranked_eeveelutions, start=1):
     print(f"{rank}. {eeveelution}")
-input("Enter anything to close")
